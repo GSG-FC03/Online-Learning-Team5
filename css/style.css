@@ -1,0 +1,71 @@
+@media (min-width: 375px) and (max-width: 667px){
+    
+    *{
+        font-family: 'Inter', sans-serif;
+        padding:0px;
+        margin:0px;
+    }
+    body{
+        background-color:#5F67F3;
+        height:675px;
+    
+    } 
+      /*style for header of the page*/  
+    
+    .title {
+         font-size: 10px ;
+         
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         color: white;
+         height:180px;
+         padding:5px;
+         
+    }
+    /*style for image*/
+    .img{
+        float: left;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+       
+    /*style for star syboml*/
+    .checked{
+        color:#FFC960;
+    }
+    /*style for card images*/
+    div{
+        float: right;
+        padding: 10px 10px 10px 10px;
+       
+        background-color: #FCFCFF;
+        
+    }
+    /*style for  recommendation card */
+    .items{
+        padding: 15px;
+        border-top-right-radius: 30px ;
+        border-top-left-radius: 30px;
+        background-color:#F1F1FA ;
+        font-size: 12px;
+        border: solid 1px #F1F1FA;
+        height: 500px;
+        width:100%;
+        margin-top: 1%;
+    }
+    /*style for recommendation boxes*/
+    section{
+        padding:10px;
+        margin-top:15px;
+        margin-bottom: 15px;
+        border: solid white;
+        border-radius: 15px;
+        background-color: white;
+        height: 70px;
+    }
+    }
