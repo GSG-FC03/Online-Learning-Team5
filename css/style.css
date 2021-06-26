@@ -106,6 +106,8 @@
         border-top-right-radius: 9px;
         height: 54%;
       }
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
 
 :root {
   --primary: #6360ff;
@@ -171,9 +173,36 @@ font-size: 10px;
     font-weight: 400;
 }
 
-@media (max-width: 700px) 
-{
-  
+@media (max-width: 700px) {
+
+  .body_login {
+    background-color: #6360ff;
+    justify-content: center;
+    padding : 0px ;
+    margin : 0px;
+    height:  138.4mm;
+  }
+.header_login {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+  }
+  p {
+    font-size: 17px;
+  }
+  /* Style of the section*/
+  .main-section {
+    background-color: #f1f1fa;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    margin-top: 45px;
+    border-bottom-left-radius: 0px; 
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 9px;
+    height: 54%;
+  }
   /*Style div of the email input*/
   .email-part {
     margin-bottom: 25px;
