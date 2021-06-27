@@ -1,0 +1,38 @@
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+  .body_login {
+    width: 25%;
+    margin-left: 38%;
+  }
+  .footer{
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .card-container{
+    width: 650px;
+    height: 270px;
+    font-size: 5px;
+    padding: 5%;
+    
+  }
+  .links-margin{
+    margin: 1%;
+    margin-left: 7%;
+  }
+  .recom-items{
+    font-size: 30px;
+    text-align: center;
+    height: 820px;
+  }
+  .main-para{
+    font-size: 24px;
+  }
+}
+
